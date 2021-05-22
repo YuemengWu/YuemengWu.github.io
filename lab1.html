@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Questionnaire</title>
+		<link rel="stylesheet" type="text/css" href="lab1.css">
+	</head>
+	<body>
+		<h1>User Interface Survey</h1>
+		<div class="div1">
+			<h2 class="h21">Please take a few minutes to do the survey on the user interface in this <a href="https://www.rakuten.ca">Rakuten</a> site.</h2>
+			<a href="https://www.rakuten.ca">
+				<img src="image.png" alt="https://www.rakuten.ca" width="550" height="300">
+			</a>
+			
+		</div>
+
+		<form>
+
+			<div class="div2">
+				<h2 class="h22">Please enter personal information here:</h2>
+				<p class="text1"><label>Name:
+					<input type="text" name="name">
+				</label></p>
+				<p class="text1"><label>E-mail:
+					<input type="text" name="e-mail">
+				</label></p>
+			</div>
+
+			<div class="div2">
+				<h2 class="h22">Please answer following questions:</h2>
+				<ul class="list">
+					<li>
+						<p class="text21"><label><strong>What do you like best about this website:</strong><br>
+							<textarea name="best" rows="10" cols="70"></textarea>
+						</label></p>
+					</li>
+
+					<li>
+						<p class="text22"><label><strong>What do you like least about this website:</strong><br>
+							<textarea name="least" rows="10" cols="70"></textarea>
+						</label></p>
+					</li>
+
+					<li>
+						<p class="text23">
+							<strong>Select things that you feel satisfied:</strong><br>
+							<label><input type="checkbox" name="satisfied" value="get Paid process">Get Paid process</label><br>
+							<label><input type="checkbox" name="satisfied" value="product description">Description of the product/service</label><br>
+							<label><input type="checkbox" name="satisfied" value="product discount description">Description of the cash back</label><br>
+							<label><input type="checkbox" name="satisfied" value="availability">Help Center availability</label><br>
+							<label><input type="checkbox" name="satisfied" value="availability">Responsiveness to questions from customers</label><br>
+						</p>
+					</li>
+
+					<li>
+						<p class="text24">
+							<label><strong>How difficult is the teaching process of 'How it Works' to understand:</strong>
+								<select name="choose">
+									<option>very hard</option>
+									<option>somewhat hard</option>
+									<option>neither hard nor easy</option>
+									<option>somewhat easy</option>
+									<option>very easy</option>
+								</select>
+						
+							</label>
+						</p>
+					</li>
+
+					<li>
+						<p class="text24">
+							<label><strong>How difficult is this website to use:</strong>
+								<select name="choose">
+									<option>very hard</option>
+									<option>somewhat hard</option>
+									<option>neither hard nor easy</option>
+									<option>somewhat easy</option>
+									<option>very easy</option>
+								</select>
+						
+							</label>
+						</p>
+					</li>
+
+					<li>
+						<p class="text25">
+							<strong>What score would you give to the UI of this website out of 5?:</strong><br>
+							<label>0<input type="radio" name="score" value="0"></label>
+							<label>1<input type="radio" name="score" value="1"></label>
+							<label>2<input type="radio" name="score" value="2"></label>
+							<label>3<input type="radio" name="score" value="3"></label>
+							<label>4<input type="radio" name="score" value="4"></label>
+							<label>5<input type="radio" name="score" value="5"></label>
+						</p>
+						
+					</li>
+
+					<li>
+						<p class="text26"><label><strong>Comments:</strong><br>
+							<textarea name="comments" rows="10" cols="70"></textarea>
+						</label></p>
+					</li>
+					
+				</ul>
+
+			</div>
+			<div class="container">
+				<button id="submitButton" type="button" class="block">
+					SUBMIT your questionnaire
+				</button>
+			</div>
+
+			<p id="signature">Site created by YW</p>	
+			
+		</form>
+	</body>
+</html>
