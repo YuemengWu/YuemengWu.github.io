@@ -1,0 +1,104 @@
+
+h1{
+	color: #FFB68C;
+	font-size: 60px;
+	text-align: center;
+	font-family: "Lucida Console", helvetica, sans-serif;
+	padding-bottom: 20px;
+	text-shadow: 4px 4px 5px #61564A;
+}
+
+
+.div1{
+	overflow: hidden;
+	border: 5px solid #FFC970;
+	border-radius: 10px;
+	background-color: #FFFFEA;
+}
+
+button{
+	width: 300px;
+	font-family: monaco, helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+.div1 button{
+	background-color: #FFFFEA;
+	cursor: pointer;
+	float: left;
+	margin-left: 130px; 
+	text-align: center;
+	padding: 14px 16px;
+	border: none;
+	outline: none;
+	transition: 0.3s;
+}
+
+.div1 button:hover {
+  	background-color: #FCF2E3;
+}
+
+.div1 button.active {
+	background-color: #faebd7;
+}
+
+h3{
+	font-size: 28px;
+	padding-bottom: 30px;
+}
+
+.stext{
+	font-size: 18px;
+}
+
+.div2 {
+  	display: none;
+  	text-align: center;
+  	padding-top: 50px;
+  	padding-bottom: 70px;
+  	border: 1px solid #ccc;
+  	border-top: none;
+  	background-color: #FFFFEA;
+  	font-family: monaco, helvetica, sans-serif;
+}
+
+#product{
+	margin-top: 15px;
+	padding-left: 630px;
+	text-align: left;
+	font-size: 18px;
+}
+
+#showProducts{
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+#stext1{
+	font-size: 18px;
+}
+
+#addCart{
+	border-radius: 10px;
+	border: 5px solid #FFC970;
+	background-color: white;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+#addCart:hover{
+	border-radius: 10px;
+	border: 5px solid #FFC970;
+	background-color: #DFDFDF;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#signature{
+	text-align: center;
+	font-style: italic;
+	font-size: 85%;
+}
